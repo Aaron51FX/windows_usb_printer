@@ -1,6 +1,6 @@
 name: windows_usb_printer
 description: Windows 平台使用，提供 1. 搜索获取已安装驱动的打印机列表 2. 向指定打印机发送打印内容
-version: 0.0.2+4
+version: 0.0.2+5
 author: lixiaohong<liyufengisme@gmail.com>
 homepage: https://github.com/liyufengrex/windows_usb_printer
 
@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  win32: ^4.1.1
+  win32: 5.5.3
   ffi: ^2.0.2
 
 dev_dependencies:
